@@ -1,0 +1,574 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+  font-family: "PT Sans", Arial sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #333333;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 40px auto;
+  box-shadow: 0 5px 10px 5px rgba(68, 47, 15, 0.27);
+}
+
+.centering {
+  width: 1100px;
+  margin: 0 auto;
+  border: 1px  #fe3d1f;
+}
+
+.decor {
+  width: 1200px;
+  height: 60px;
+  background: #572925;
+}
+
+.navigation-list,
+.notarial-action-list,
+.documents-licens-list,
+.news-list,
+.contacts-list {
+  list-style: none;
+}
+
+/*=======================*/
+/*==Header & navigation==*/
+/*=======================*/
+
+.navigation-menu {
+  position: relative;
+  height: 56px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  background: rgba(247, 210, 117, 0.38);
+  border: 1px solid burlywood;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  min-height: 56px;
+  height: 56px; /*для центрирования в IE по вертикали*/
+  list-style: none;
+  color: #333333;
+}
+
+.navigation-list a {
+  color: #4E2623;
+}
+
+.navigation-list li {
+  text-align: center;
+}
+
+.navigation-list li:nth-child(4) {
+  margin-left: -100px;
+}
+
+.interval {
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin-left: 30px;
+}
+
+.navigation-list a:hover {
+  border-bottom: 2px solid #7c3c3c;
+  color: #7c3c3c;
+}
+
+.stamp {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: -30px;
+  left: 545px;
+  border-radius: 120px;
+  box-shadow: 0 0 0 3px #f4e6c2, 0 0 13px #f4e6c2;
+  background: #f4e6c2;
+  z-index: 2;
+}
+
+.logo-up {
+  position: absolute;
+  top: -25px;
+  left: 550px;
+  z-index: 4;
+}
+
+.notarius,
+.notarial-action,
+.documents-licens,
+.our-specialists,
+.main-footer {
+  display: flex;
+  min-height: 350px;
+}
+
+/*============*/
+/*==Notarius==*/
+/*============*/
+
+.wrapper-darken {
+  background: #7c3c3c linear-gradient(6deg, transparent 73%, #572925 27%);
+  color: #f2f2f2;
+}
+
+.wrapper-lighten {
+  background: #f4e6c2;
+  color: #333333;
+}
+
+.notarius {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 900px;
+  height: 350px;
+  text-align: left;
+  color: #f4e6c2;
+}
+
+.notarius span {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.notarius h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.notarius-name {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.notarius p {
+  width: 430px;
+  margin: 0;
+  padding-bottom: 20px;
+  line-height: 24px;
+}
+
+.photo {
+  align-self: flex-end;
+  margin: 20px 0;
+}
+
+/*============*/
+/*==Actions==*/
+/*============*/
+
+.notarial-action {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 350px;
+}
+
+.notarial-action-list {
+  list-style: none;
+  text-align: left;
+  /*padding-left: 100px;*/
+  padding-left: 0;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.notarial-action-item {
+  padding-left: 60px;
+  padding-bottom: 10px;
+  background: url("../img/pencil_min.png") no-repeat;
+  cursor: pointer;
+  color: #7c3c3c;
+}
+
+.notarial-action-item:hover {
+  color: #7c3c3c;
+  font-weight: bolder;
+}
+
+.notarial-action h2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #4E2623;
+}
+
+.notarial-action-content {
+  /*position: relative;*/
+  width: 640px;
+  height: 320px;
+  margin-top: 15px;
+  align-self: flex-end;
+  overflow-y: auto;
+  border-left: 5px solid rgba(222, 170, 135, 0.3);
+  border-right: 5px solid rgba(222, 170, 135, 0.3);
+
+}
+
+.notarial-action-text {
+  width: 590px;
+  height: 340px;
+}
+
+.notarial-action-doc {
+  /*position: absolute;*/
+  display: none;
+  padding: 20px;
+  text-align: left;
+  text-transform: none;
+}
+
+.active-doc {
+  display: block;
+}
+
+/*=======================*/
+/*==Documents & License==*/
+/*=======================*/
+
+/*.documents-licens {
+  flex-direction: column;
+}
+
+.documents-licens h2 {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.documents-licens-list {
+  display: flex;
+}
+
+  .license {
+  display: block;
+  width: 120px;
+  height: 170px;
+  margin: 10px;
+  transition: transform 0.4s;
+}
+
+.license:hover {
+  transform: scale(2.5, 2.5);
+}*/
+
+
+/*============*/
+/*==Services==*/
+/*============*/
+
+.services {
+  width: 800px;
+  min-height: 250px;
+  color: #f4e6c2;
+}
+
+.services h2 {
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.services p {
+  text-align: left;
+  /*text-transform: none;*/
+}
+
+.services__form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  min-height: 430px;
+  margin: 0 200px ;
+  padding-bottom: 50px;
+  color: #f4e6c2;
+}
+
+.services__form input, textarea {
+  line-height: ;
+  border: 1px solid #f4e6c2;
+  border-radius: 3px;
+  background-color: #f4e6c2;
+  color: #572925;
+  outline-color: #ff5554;
+}
+
+.services__form input {
+  min-width: 400px;
+  height: 30px;
+  margin: 10px 0;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.services__form input:hover {
+  background-color: rgba(249, 243, 239, 0.9);
+  color: #572925;
+}
+
+.services__form input:focus {
+  background-color: rgba(249, 243, 239, 0.9);
+  color: #572925;
+}
+
+.services__form input[type="file"] {
+  padding: 10px;
+  padding-top: 18px;
+}
+
+.services__form input[type="submit"] {
+  margin-top: 50px;
+  width: 420px;
+  height: 60px;
+  background-color: #f4e6c2;
+  color: #572925;
+  font-weight: bold;
+}
+
+.services__form input[type="submit"]:focus {
+  outline: none;
+}
+
+.services__form input[type="submit"]:active {
+  background-color: #7c3c3c;
+  color: #f4e6c2;
+  outline: none;
+}
+
+
+.services__form textarea {
+  box-sizing: border-box;
+  width: 800px;
+  min-height: 150px;
+  margin: 10px 0;
+  padding: 20px;
+  font-family: "PT Sans", Arial sans-serif;
+}
+
+.services__form textarea:hover {
+  background-color: rgba(249, 243, 239, 0.9);
+  color: #572925;
+}
+
+.services__form textarea:focus {
+  background-color: rgba(249, 243, 239, 0.9);
+  color: #572925;
+}
+
+label {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/*================*/
+/*==Tariffs==*/
+/*================*/
+
+.tariffs {
+  height: 550px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-transform: none;
+  color: #f4e6c2;
+}
+
+.tariffs-table {
+  width: 1100px;
+  border: 1px dotted #f4e6c2;
+  border-collapse: collapse;
+}
+
+.tariffs-table caption {
+  margin: 10px auto;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.tariffs-table th {
+  border: 1px solid #f4e6c2;
+  padding-right: 20px;
+}
+
+.tariffs-table td {
+  padding: 5px 20px;
+  border: 1px dotted #f4e6c2;
+  text-align: left;
+}
+
+.tariffs-table td:first-child{
+  text-align: center;
+}
+/*===============*/
+/*==News==*/
+/*===============*/
+
+.news {
+  margin: 0 auto;
+  padding: 0;
+  width: 900px;
+  min-height: 500px;
+  color: #4E2623;
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.news h2 {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.news-item h4 {
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 10px;
+  display: block;
+  width: 600px;
+}
+
+.news-item p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.news-date {
+  display: block;
+  width: 85px;
+  height: 25px;
+  margin-right: 900px;
+  margin-top: 20px;
+  border-radius: 4px;
+  background-color: rgba(222, 170, 135, 0.3);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #7c3c3c;
+  line-height: 25px;
+}
+
+.news-read-more {
+  display: block;
+  width: 120px;
+  height: 25px;
+  margin-right: 900px;
+  margin-top: 10px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #7c3c3c;
+}
+
+.news-read-more:hover {
+  color: #deaa87;
+  text-transform: uppercase;
+}
+
+.news-page p {
+  display: block;
+  width: 900px;
+  margin: 20px auto;
+  text-align: left;
+  text-transform: none;
+}
+
+/*================*/
+/*==Footer & map==*/
+/*================*/
+
+.map {
+  display: block;
+  width: 600px;
+  height: 350px;
+  margin: 20px 0;
+  background-image: url("../img/map-background.png");
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px 0;
+  margin-left: 100px;
+  width: 350px;
+  color: #f4e6c2;
+  background: #7c3c3c linear-gradient(6deg, transparent 72%, #572925 27%);
+}
+
+.contacts h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-item {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.rights {
+  margin: 0;
+  padding: 24px;
+  font-size: 10px;
+  text-transform: none;
+  text-align: left;
+  color: #f4e6c2;
+}
+
+/*===============*/
+/*===Scrollbar===*/
+/*===============*/
+
+::-webkit-scrollbar {width: 5px; height: 5px;}
+::-webkit-scrollbar-button {background-color: #a0401a; }
+::-webkit-scrollbar-track {background-color: #deaa87;}
+::-webkit-scrollbar-track-piece {background-color: #f4e6c2;}
+::-webkit-scrollbar-thumb {height: 30px; background-color: #a0401a; border-radius: 5px;}
+::-webkit-scrollbar-corner {background-color: #deaa87;}
+::-webkit-resizer {background-color: #a0401a;}
