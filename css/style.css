@@ -33,7 +33,7 @@ a {
 }
 
 .centering {
-  width: 1100px;
+  width: 1120px;
   margin: 0 auto;
   border: 1px  #fe3d1f;
 }
@@ -70,7 +70,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 50px;
   padding: 0;
   min-height: 56px;
   height: 56px; /*для центрирования в IE по вертикали*/
@@ -86,15 +86,10 @@ a {
   text-align: center;
 }
 
-.navigation-list li:nth-child(4) {
-  margin-left: -100px;
-}
-
 .interval {
   display: block;
-  width: 120px;
-  height: 30px;
-  margin-left: 30px;
+  width: 90px;
+  height: 1px;
 }
 
 .navigation-list a:hover {
@@ -399,16 +394,26 @@ label {
 /*================*/
 
 .tariffs {
-  height: 550px;
+  height: 3550px;
   overflow-y: scroll;
   overflow-x: hidden;
   text-transform: none;
   color: #f4e6c2;
 }
 
+.tariffs-header th {
+  width: auto;
+}
+
+.tariffs-header th:nth-child(n+3) {
+  width: 140px;
+}
+
 .tariffs-table {
   width: 1100px;
+  margin-bottom: 20px;
   border: 1px dotted #f4e6c2;
+  border-bottom: 1px solid #f4e6c2;
   border-collapse: collapse;
 }
 
@@ -421,18 +426,20 @@ label {
 
 .tariffs-table th {
   border: 1px solid #f4e6c2;
-  padding-right: 20px;
+  padding: 10px;
 }
 
 .tariffs-table td {
-  padding: 5px 20px;
+  padding: 10px;
   border: 1px dotted #f4e6c2;
   text-align: left;
 }
 
-.tariffs-table td:first-child{
-  text-align: center;
+.tariffs-table td:first-child {
+  vertical-align: inherit;
 }
+
+
 /*===============*/
 /*==News==*/
 /*===============*/

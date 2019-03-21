@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02676fae-9888-45eb-ad75-a5fadd5308f7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,21 +14,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Notarius_2" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="210" selection-start-line="210" selection-end-line="210" />
+            <state relative-caret-position="460">
+              <caret line="532" column="172" selection-start-line="532" selection-start-column="172" selection-end-line="532" selection-end-column="172" />
               <folding>
+                <element signature="n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#32466#32501#0" expanded="true" />
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <marker date="1552484642810" expanded="true" signature="10434:11315" ph="..." />
+                <marker date="1553156345306" expanded="true" signature="10298:11179" ph="..." />
               </folding>
             </state>
           </provider>
@@ -34,17 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="333" column="21" selection-start-line="333" selection-start-column="21" selection-end-line="333" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="617">
+              <caret line="441" lean-forward="true" selection-start-line="441" selection-end-line="441" />
             </state>
           </provider>
         </entry>
@@ -53,13 +48,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>zav</find>
-      <find>overf</find>
-      <find>photo</find>
-      <find>*</find>
-      <find>*.</find>
-      <find>-1</find>
-      <find>main</find>
       <find>wrapper-lighten</find>
       <find>news-page</find>
       <find>centeri</find>
@@ -83,6 +71,13 @@
       <find>auto</find>
       <find>invalid</find>
       <find>inp</find>
+      <find>18</find>
+      <find>18-</find>
+      <find>мая</find>
+      <find>12</find>
+      <find>inter</find>
+      <find>interv</find>
+      <find>tariff</find>
     </findStrings>
     <replaceStrings>
       <replace>*</replace>
@@ -106,7 +101,6 @@
         <option value="$PROJECT_DIR$/../604559-sedona/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/news_1.html" />
-        <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/wp-content/themes/twentythirteen/index.php" />
         <option value="$PROJECT_DIR$/news_3.html" />
         <option value="&lt;9fe0b990-7368-49e5-a97e-1b3210a6b25e&gt;/www/news_3.html" />
         <option value="$PROJECT_DIR$/news_2.html" />
@@ -119,16 +113,20 @@
         <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/management-of-reality/ajax/send_message.php" />
         <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/management-of-team/ajax/send_message.php" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/form.html" />
+        <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/management-of-team/index.html" />
+        <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/wp-content/themes/twentythirteen/index.php" />
+        <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/talant-management.ru/tmpl/price.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="634" />
-    <option name="height" value="1158" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,9 +163,9 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="H:/Downloads/feedback-form-v.2.0.2" />
+    <property name="last_opened_file_path" value="D:/Projects_materials/Перевалова/feedback-form-v.2.0.2/feedback" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -236,7 +234,23 @@
       <workItem from="1552449918675" duration="1728000" />
       <workItem from="1552452351555" duration="611000" />
       <workItem from="1552455965610" duration="6706000" />
-      <workItem from="1552475775450" duration="706000" />
+      <workItem from="1552475775450" duration="1348000" />
+      <workItem from="1552556802609" duration="101000" />
+      <workItem from="1552564682175" duration="50000" />
+      <workItem from="1552564741346" duration="72000" />
+      <workItem from="1552565939733" duration="159000" />
+      <workItem from="1552566112738" duration="826000" />
+      <workItem from="1552568169317" duration="843000" />
+      <workItem from="1552569080491" duration="103000" />
+      <workItem from="1552573231146" duration="266000" />
+      <workItem from="1552573522340" duration="3016000" />
+      <workItem from="1552626342787" duration="1187000" />
+      <workItem from="1552886139006" duration="10301000" />
+      <workItem from="1552971052962" duration="9488000" />
+      <workItem from="1553056734386" duration="1192000" />
+      <workItem from="1553075589544" duration="9328000" />
+      <workItem from="1553092854116" duration="602000" />
+      <workItem from="1553148994417" duration="5468000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит. Начало работы. Поехали!">
       <created>1531994530999</created>
@@ -298,15 +312,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172865000" />
+    <option name="totallyTimeSpent" value="216509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19379845" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1997406" />
       <window_info id="Structure" order="1" weight="0.249354" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.3294423" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299595" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -323,32 +337,9 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.14405684" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.14591439" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19121447" />
-      <window_info id="Structure" order="1" weight="0.249354" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299595" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3280255" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32961783" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.3299595" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.14405684" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -456,26 +447,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="333" column="21" selection-start-line="333" selection-start-column="21" selection-end-line="333" selection-end-column="21" />
+        <state relative-caret-position="617">
+          <caret line="441" lean-forward="true" selection-start-line="441" selection-end-line="441" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        <state relative-caret-position="460">
+          <caret line="532" column="172" selection-start-line="532" selection-start-column="172" selection-end-line="532" selection-end-column="172" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#32466#32501#0" expanded="true" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1552484642810" expanded="true" signature="10434:11315" ph="..." />
+            <marker date="1553156345306" expanded="true" signature="10298:11179" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
