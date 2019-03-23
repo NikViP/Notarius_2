@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3b5fffcd-0b71-4520-a1e2-70a6782a1aae" name="Notarius" url="http://s15519@h10.modhost.pro">
+        <fileTransfer host="s15519@h10.modhost.pro" port="22" rootFolder="/home/s15519" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
