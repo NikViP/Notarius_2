@@ -2,11 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02676fae-9888-45eb-ad75-a5fadd5308f7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/process-forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/process-forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/get_oauth_token.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-am.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-az.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ba.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-be.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-bg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ca.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-cs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-da.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-de.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-el.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-eo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-es.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-et.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-fa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-fi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-fo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-fr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-gl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-he.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-hi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-hr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-hu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-id.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-it.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ja.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ka.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ko.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-lt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-lv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-mg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-nb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-nl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-pl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-pt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-pt_br.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-ru.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-sk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-sl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-sr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-sv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-tl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-tr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-uk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-vi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-zh.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/language/phpmailer.lang-zh_cn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/src/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/src/OAuth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/src/PHPMailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/src/POP3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/src/SMTP.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/email.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/email_client.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/process.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,26 +82,21 @@
     <favorites_list name="Notarius_2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="20">
+              <caret line="172" column="58" lean-forward="true" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
               <folding>
-                <element signature="n#div#2;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#0;n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <marker date="1553933749552" expanded="true" signature="12202:13051" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="125" column="1" lean-forward="true" selection-start-line="54" selection-end-line="125" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -46,36 +105,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>doc</find>
-      <find>list</find>
-      <find>h2</find>
-      <find>субб</find>
-      <find>news</find>
-      <find>overflow</find>
-      <find>class=&quot;label&quot;</find>
-      <find>scroll-behav</find>
-      <find>behav</find>
-      <find>scroll</find>
-      <find>smooth</find>
-      <find>auto</find>
-      <find>invalid</find>
-      <find>inp</find>
-      <find>18</find>
-      <find>18-</find>
-      <find>мая</find>
-      <find>12</find>
-      <find>inter</find>
-      <find>interv</find>
-      <find>tariff</find>
-      <find>рубля</find>
-      <find>10990</find>
-      <find>1800</find>
-      <find>&lt;p&gt;&lt;br&gt;&lt;/p&gt;</find>
-      <find>action</find>
-      <find>lic</find>
-      <find>action-list</find>
-      <find>checklist</find>
-      <find>notarial-action-doc__checklist</find>
+      <find>submit</find>
+      <find>a:ho</find>
+      <find>textarea</find>
+      <find>a:</find>
+      <find>***</find>
+      <find>крупнейшая</find>
+      <find>бизнес тре</find>
+      <find>/br</find>
+      <find>e-m</find>
+      <find>sender</find>
+      <find>notarius</find>
+      <find>услуги для юр</find>
+      <find>отправка</find>
+      <find>нотариус</find>
+      <find>form</find>
+      <find>form-control</find>
+      <find>area</find>
+      <find>iframe</find>
+      <find>cols</find>
+      <find>512</find>
+      <find>custom-control-label</find>
+      <find>control-label</find>
+      <find>custom-file-input</find>
+      <find>alert</find>
+      <find>invalid-tool</find>
+      <find>bootstrap</find>
+      <find>invalid-feedback</find>
+      <find>Исправьте данные и отправьте форму ещё раз</find>
+      <find>custom-file-label</find>
+      <find>wrapper-d</find>
     </findStrings>
     <replaceStrings>
       <replace>*</replace>
@@ -97,7 +156,6 @@
         <option value="$PROJECT_DIR$/../barbershop/item.html" />
         <option value="$PROJECT_DIR$/../barbershop/index.html" />
         <option value="$PROJECT_DIR$/../604559-sedona/index.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/news_1.html" />
         <option value="$PROJECT_DIR$/news_3.html" />
         <option value="&lt;9fe0b990-7368-49e5-a97e-1b3210a6b25e&gt;/www/news_3.html" />
@@ -110,23 +168,32 @@
         <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/intuit-management.ru/ajax/send_message.php" />
         <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/management-of-reality/ajax/send_message.php" />
         <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/management-of-team/ajax/send_message.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/form.html" />
         <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/management-of-team/index.html" />
-        <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/wp-content/themes/twentythirteen/index.php" />
         <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/talant-management.ru/tmpl/price.php" />
+        <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/wp-content/themes/twentythirteen/css/editor-style.css" />
+        <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/wp-content/themes/twentythirteen/index.php" />
+        <option value="&lt;a578fd14-e771-4024-8c5f-ac9c610a9f9c&gt;/public_html/wp-content/themes/twentythirteen/style.css" />
+        <option value="&lt;3b5fffcd-0b71-4520-a1e2-70a6782a1aae&gt;/www/index_test.html" />
+        <option value="&lt;3b5fffcd-0b71-4520-a1e2-70a6782a1aae&gt;/www/notarius_sender/process.php" />
+        <option value="$PROJECT_DIR$/js/process-forms.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="&lt;3b5fffcd-0b71-4520-a1e2-70a6782a1aae&gt;/www/img/index.html" />
+        <option value="&lt;3b5fffcd-0b71-4520-a1e2-70a6782a1aae&gt;/www/form_sender/js/process-forms.js" />
+        <option value="&lt;3b5fffcd-0b71-4520-a1e2-70a6782a1aae&gt;/www/form_sender/process/process.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="&lt;3b5fffcd-0b71-4520-a1e2-70a6782a1aae&gt;/www/index.html" />
         <option value="&lt;3b5fffcd-0b71-4520-a1e2-70a6782a1aae&gt;/www/css/style.css" />
+        <option value="&lt;3b5fffcd-0b71-4520-a1e2-70a6782a1aae&gt;/www/index.html" />
+        <option value="$PROJECT_DIR$/js/jquery-3.3.1.min.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="1176" />
+    <option name="x" value="-7" />
+    <option name="width" value="634" />
+    <option name="height" value="1158" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -136,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,14 +216,24 @@
               <item name="Notarius_2" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Notarius_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Notarius_2" type="462c0819:PsiDirectoryNode" />
+              <item name="feedback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Notarius_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Notarius_2" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -163,9 +241,9 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Projects_materials/Перевалова/feedback-form-v.2.0.2/feedback" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sedona" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,6 +333,19 @@
       <workItem from="1553248474860" duration="3668000" />
       <workItem from="1553252188223" duration="112000" />
       <workItem from="1553333978560" duration="12837000" />
+      <workItem from="1553407596193" duration="1351000" />
+      <workItem from="1553486666325" duration="11599000" />
+      <workItem from="1553504660756" duration="4544000" />
+      <workItem from="1553577188063" duration="5361000" />
+      <workItem from="1553659206062" duration="2792000" />
+      <workItem from="1553665788496" duration="2869000" />
+      <workItem from="1553692739676" duration="3275000" />
+      <workItem from="1553836283259" duration="22000" />
+      <workItem from="1553836757243" duration="11198000" />
+      <workItem from="1553924711521" duration="3478000" />
+      <workItem from="1553929097593" duration="4919000" />
+      <workItem from="1554092667554" duration="5432000" />
+      <workItem from="1554180289433" duration="1301000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит. Начало работы. Поехали!">
       <created>1531994530999</created>
@@ -316,13 +407,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239682000" />
+    <option name="totallyTimeSpent" value="297823000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1997406" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1997406" />
       <window_info id="Structure" order="1" weight="0.249354" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3294423" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -331,22 +430,35 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960325" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3280255" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.6958291" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32961783" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.3299595" />
+      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32960325" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.14526589" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.27367055" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_DETAILS" value="true" />
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -432,38 +544,127 @@
     <entry file="file://$PROJECT_DIR$/vendors/bootstrap/js/bootstrap.js.map" />
     <entry file="file://$PROJECT_DIR$/vendors/bootstrap/js/bootstrap.min.js.map" />
     <entry file="file://$PROJECT_DIR$/vendors/bootstrap/js/bootstrap.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.min.js" />
     <entry file="file://$PROJECT_DIR$/uploads/.htaccess" />
     <entry file="file://$PROJECT_DIR$/vendors/bootstrap/js/bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/news_3.html" />
-    <entry file="file://$PROJECT_DIR$/js/process-forms.js" />
     <entry file="file://$PROJECT_DIR$/form.html" />
     <entry file="file://$PROJECT_DIR$/process/process.php" />
     <entry file="file://$PROJECT_DIR$/process/email_client.tpl" />
     <entry file="file://$PROJECT_DIR$/process/email.tpl" />
+    <entry file="file://H:/Downloads/Архив сайта/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="363" column="1" lean-forward="true" selection-start-line="363" selection-start-column="1" selection-end-line="363" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_sender/phpmailer/VERSION">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback/vendors/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="3862" column="23" selection-start-line="3862" selection-start-column="10" selection-end-line="3862" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback/vendors/bootstrap/css/bootstrap-reboot.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback/vendors/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback/process/process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback/vendors/bootstrap/js/bootstrap.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback/vendors/bootstrap/css/bootstrap-grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback/js/process-forms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="70" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback/index_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="92" column="81" selection-start-line="92" selection-start-column="64" selection-end-line="92" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/process-forms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="180">
+          <caret line="9" column="85" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="125" column="1" lean-forward="true" selection-start-line="54" selection-end-line="125" selection-end-column="1" />
+        <state relative-caret-position="512">
+          <caret line="141" column="17" lean-forward="true" selection-start-line="141" selection-start-column="17" selection-end-line="141" selection-end-column="17" />
+          <folding>
+            <marker date="1553933749567" expanded="true" signature="7019:7117" ph="..." />
+            <marker date="1553933749567" expanded="true" signature="7019:7179" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="20">
+          <caret line="172" column="58" lean-forward="true" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
           <folding>
-            <element signature="n#div#2;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <marker date="1553933749552" expanded="true" signature="12202:13051" ph="..." />
           </folding>
         </state>
       </provider>

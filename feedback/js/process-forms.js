@@ -9,12 +9,12 @@
 var ProcessForm = function (config) {
   var _config = {
     selector: '#feedback-form', // селектор формы обратной связи
-    isCaptcha: false, // наличие капчи
+    isCaptcha: true, // наличие капчи
     isAgreement: true,  // наличие пользовательского соглашения
     isAttachments: true, // наличие блока для прикрепления файлов
     customFileText: '',
-    maxSizeFile: 20.0, // максмальный размер файла в мегабайтах
-    validFileExtensions: ['jpg', 'jpeg', 'bmp', 'gif', 'png', 'pdf', 'doc', 'docx', 'txt', 'rtf'],
+    maxSizeFile: 0.5, // максмальный размер файла в мегабайтах
+    validFileExtensions: ['jpg', 'jpeg', 'bmp', 'gif', 'png'],
     codeFragmentAttachment: '<div class="form-group">' +
       '<div class="custom-file">' +
       '<input name="attachment[]" type="file" class="custom-file-input" id="validatedCustomFile" lang="ru">' +
@@ -93,7 +93,7 @@ ProcessForm.prototype = function () {
     return false;
   };
 
-  // валидация формы
+  // валилация формы
   var _validateForm = function (form) {
     var valid = true;
     $(form).find('input, textarea').not('[type="file"], [name="agree"]').each(function () {

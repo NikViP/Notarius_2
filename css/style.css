@@ -93,8 +93,7 @@ a {
 }
 
 .navigation-list a:hover {
-  border-bottom: 2px solid #7c3c3c;
-  color: #7c3c3c;
+  color: #deaa87;
 }
 
 .stamp {
@@ -132,6 +131,10 @@ a {
 .wrapper-darken {
   background: #7c3c3c linear-gradient(6deg, transparent 73%, #572925 27%);
   color: #f2f2f2;
+}
+
+.wrapper-darken--forms {
+  linear-gradient(6deg, transparent 88%, #572925 27%);
 }
 
 .wrapper-lighten {
@@ -265,7 +268,7 @@ a {
 
 .notarial-action-doc__checklist:active {
   font-weight: bold;
-  color: #4E2623;
+  color: #7C3C3C;
 }
 
 /*============*/
@@ -287,7 +290,6 @@ a {
 
 .services p {
   text-align: left;
-  /*text-transform: none;*/
 }
 
 .services__form {
@@ -296,12 +298,11 @@ a {
   align-items: start;
   min-height: 430px;
   margin: 0 200px ;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   color: #f4e6c2;
 }
 
 .services__form input, textarea {
-  line-height: ;
   border: 1px solid #f4e6c2;
   border-radius: 3px;
   background-color: #f4e6c2;
@@ -310,9 +311,8 @@ a {
 }
 
 .services__form input {
-  min-width: 400px;
-  height: 30px;
-  margin: 10px 0;
+  width: 400px;
+  height: 40px;
   padding-left: 20px;
   font-size: 14px;
 }
@@ -328,34 +328,21 @@ a {
 }
 
 .services__form input[type="file"] {
-  padding: 10px;
-  padding-top: 18px;
+  width: 400px;
+  padding: 2px;
+  padding-right: 19px;
 }
 
-.services__form input[type="submit"] {
-  margin-top: 50px;
-  width: 420px;
-  height: 60px;
-  background-color: #f4e6c2;
-  color: #572925;
-  font-weight: bold;
+.services__form input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  margin-top: 20px;
 }
-
-.services__form input[type="submit"]:focus {
-  outline: none;
-}
-
-.services__form input[type="submit"]:active {
-  background-color: #7c3c3c;
-  color: #f4e6c2;
-  outline: none;
-}
-
 
 .services__form textarea {
   box-sizing: border-box;
   width: 800px;
-  min-height: 150px;
+  min-height: 250px;
   margin: 10px 0;
   padding: 20px;
   font-family: "PT Sans", Arial sans-serif;
@@ -363,17 +350,114 @@ a {
 
 .services__form textarea:hover {
   background-color: rgba(249, 243, 239, 0.9);
-  color: #572925;
 }
 
 .services__form textarea:focus {
   background-color: rgba(249, 243, 239, 0.9);
-  color: #572925;
 }
 
 label {
   margin-top: 20px;
+  margin-bottom: 10px;
   font-weight: bold;
+}
+
+.custom-control-label {
+  text-transform: lowercase;
+  font-weight: normal;
+}
+
+
+.custom-control-label a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #572925;
+}
+
+.custom-control-label a:hover {
+  color: #f4e6c2;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.form-group .captcha {
+  flex-direction: row;
+}
+
+.captcha-group {
+  display: flex;
+  margin-top: 20px;
+}
+
+.img-captcha, .refresh-captcha {
+  width: 135px;
+  height: 45px;
+}
+
+.agreement {
+  text-align: left;
+}
+
+
+.btn-light {
+  height: 45px;
+  padding: 10px 20px;
+  border: 1px solid #f4e6c2;
+  border-radius: 3px;
+  background-color: #f4e6c2;
+  text-transform: uppercase;
+  line-height: 24px;
+  color: #572925;
+}
+
+.btn-light:hover {
+  background-color: rgba(249, 243, 239, 0.9);
+}
+
+.btn-light:focus {
+  outline: none !important;
+  background-color: rgba(249, 243, 239, 0.9);
+}
+
+.btn-light:active {
+  background-color: #7c3c3c;
+  color: #f4e6c2;
+  outline: none !important;
+}
+
+.btn-light::-moz-focus-inner {
+  border: 0 !important;
+}
+
+.btn-primary {
+  height: 45px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #f4e6c2;
+  border-radius: 3px;
+  background-color: #f4e6c2;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 24px;
+  color: #572925;
+}
+
+.btn-primary:hover {
+  background-color: rgba(249, 243, 239, 0.9);
+}
+
+.btn-primary:active {
+  background-color: #7c3c3c;
+  color: #f4e6c2;
+  outline: none !important;
+}
+
+.btn-primary::-moz-focus-inner {
+  border: 0 !important;
 }
 
 /*================*/
@@ -488,15 +572,12 @@ label {
   margin-right: 900px;
   margin-top: 10px;
   text-align: left;
-  text-transform: none;
-  text-decoration: underline;
   font-weight: bold;
   color: #7c3c3c;
 }
 
 .news-read-more:hover {
   color: #deaa87;
-  text-transform: uppercase;
 }
 
 .news-page p {
@@ -519,6 +600,9 @@ label {
   background-image: url("../img/map-background.png");
 }
 
+frame {
+  border: hidden;
+}
 .contacts {
   display: flex;
   flex-direction: column;

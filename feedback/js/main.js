@@ -10,8 +10,8 @@ $(function () {
   }
   Основные параметры
   selector - селектор формы (по умолчанию '#feedback-form')
-  maxSizeFile - максимальный размер файла в мегабайтах (по умолчанию 20.0)
-  validFileExtensions - допустимые расширения файлов для загрузки (по умолчанию 'jpg', 'jpeg', 'bmp', 'gif', 'png', 'pdf', 'doc', 'docx', 'txt', 'rtf')
+  maxSizeFile - максимальный размер файла в мегабайтах (по умолчанию 0.5)
+  validFileExtensions - допустимые расширения файлов для загрузки (по умолчанию 'jpg','jpeg','bmp','gif','png') 
   */
 
   var form1 = new ProcessForm();

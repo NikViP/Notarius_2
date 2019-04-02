@@ -1,3 +1,4 @@
+//Плавный переход по якорным ссылкам на странице
 $(function () {
   $("a[href^='#']").click(function () {
     var _href = $(this).attr("href");
@@ -6,6 +7,7 @@ $(function () {
   });
 });
 
+//Нотариальные действия (клик по заголовку меняет содержимое текстового блока справа)
 $(document).ready(function () {
   $(".notarial-action-item").click(function () {
     $(".active-doc").removeClass("active-doc");
