@@ -13,18 +13,20 @@
 <div class="wrapper">
   <div class="decor"></div>
 
-  <header class="header">
-    <nav class="navigation-menu">
+  <header>
+    <nav class="menu">
       <div class="centering">
-        <ul class="navigation-list">
-          <li><a href="#notarius">о нотариусе</a></li>
-          <li><a href="#service">Нотариальные<br>действия</a></li>
-          <li><a href="#" tabindex="-1"><div class="interval"></div></a></li>
-          <li><a href="#send">отправить<br>документы</a></li>
-          <li><a href="#contacts">контакты</a></li>
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link" href="#notarius">о нотариусе</a></li>
+          <li class="menu__item"><a class="menu__link" href="#service">Нотариальные<br>действия</a></li>
+          <li class="menu__item menu__item--interval"></li>
+          <li class="menu__item"><a class="menu__link" href="#send">отправить<br>документы</a></li>
+          <li class="menu__item"><a class="menu__link" href="#contacts">контакты</a></li>
         </ul>
-        <div class="stamp"></div>
-        <img class="logo-up" src="img/logo-up.png" width="100" height="100" alt="Логотип">
+        <div class="logo-eagle">
+          <span class="logo-eagle__circle"></span>
+          <img class="logo-eagle__image" src="img/eagle.png" width="100" height="100" alt="Логотип">
+        </div>
       </div>
     </nav>
   </header>
@@ -32,31 +34,29 @@
   <main>
     <div class="wrapper-darken">
       <div class="notarius centering">
-        <span>Нотариальная палата Свердловской области</span>
-        <h1 id="notarius">Нотариус</h1>
-        <div class="notarius-name">Перевалова<br>Ирина Викторовна</div>
-        <p>Обеспечение защиты прав и законных интересов граждан и юридических лиц путем совершения
+        <span class="notarius__preamble">Нотариальная палата Свердловской области</span>
+        <h1 class="notarius__header" id="notarius">Нотариус</h1>
+        <span class="notarius__name">Перевалова<br>Ирина Викторовна</span>
+        <p class="notarius__description">Обеспечение защиты прав и законных интересов граждан и юридических лиц путем совершения
           предусмотренных законодательными актами нотариальных действий<br>от имени Российской Федерации
         </p>
-        <div class="photo">
-          <img src="img/notarius.jpg" width="280" height="310" alt="Нотариус Первалова И.В.">
-        </div>
+        <img class="notarius__image" src="img/notarius.jpg" width="280" height="310" alt="Нотариус Первалова И.В.">
       </div>
     </div>
 
     <div class="wrapper-lighten">
-      <div class="notarial-action centering">
-        <h2 id="service">Нотариальные действия</h2>
-        <ul class="notarial-action-list">
-          <li class="notarial-action-item" data-text-id="transactions">Удостоверение сделок</li>
-          <li class="notarial-action-item" data-text-id="proxys">Удостоверение доверенностей</li>
-          <li class="notarial-action-item" data-text-id="evidence">Обеспечение доказательств,<br> судебное поручение</li>
-          <li class="notarial-action-item" data-text-id="statements">Передача заявлений юридических лиц</li>
-          <li class="notarial-action-item" data-text-id="realty">Сделки с недвижимостью</li>
-          <li class="notarial-action-item" data-text-id="division">Договор о разделе имущества</li>
+      <div class="actions centering">
+        <h2 class="actions__header" id="service">Нотариальные действия</h2>
+        <ul class="actions__list">
+          <li class="actions__item" actions__id="transactions">Удостоверение сделок</li>
+          <li class="actions__item" actions__id="proxys">Удостоверение доверенностей</li>
+          <li class="actions__item" actions__id="evidence">Обеспечение доказательств,<br> судебное поручение</li>
+          <li class="actions__item" actions__id="statements">Передача заявлений юридических лиц</li>
+          <li class="actions__item" actions__id="realty">Сделки с недвижимостью</li>
+          <li class="actions__item" actions__id="division">Договор о разделе имущества</li>
         </ul>
-        <div class="notarial-action-content">
-          <div class="notarial-action-doc" id="transactions">
+        <div class="actions__content">
+          <div class="actions__doc" id="transactions">
             <p>Нотариус удостоверяет сделки, для которых законодательством Российской Федерации
               установлена обязательная нотариальная форма. По желанию сторон нотариус может удостоверять и другие сделки.
             </p>
@@ -68,9 +68,9 @@
               2) в случаях, предусмотренных соглашением сторон, хотя бы по закону для сделок данного вида эта форма не требовалась.
               Если нотариальное удостоверение сделки является обязательным, несоблюдение нотариальной формы сделки влечет ее ничтожность.
             </p>
-            <a href="#" class="notarial-action-doc__checklist" tabindex="-1">Перечень необходимых документов для сделки</a>
+            <a href="#" class="actions__checklist" tabindex="-1">Перечень необходимых документов для сделки</a>
           </div>
-          <div class="notarial-action-doc active-doc" id="proxys">
+          <div class="actions__doc actions__doc--active" id="proxys">
             <p>Нотариус удостоверяет доверенности от имени одного или нескольких лиц, на имя одного или нескольких лиц.</p>
             <p>Доверенность, выдаваемая в порядке передоверия, подлежит нотариальному удостоверению по представлении
               основной доверенности, либо по представлении доказательств того, что представитель по основной доверенности вынужден к этому силою
@@ -78,9 +78,9 @@
             <p>Доверенность, выданная в порядке передоверия, не должна содержать в себе больше прав,
               чем предоставлено по основной доверенности. Срок действия доверенности, выданной в порядке передоверия,
               не может превышать срока действия доверенности, на основании которой она выдана.</p>
-            <a href="#" class="notarial-action-doc__checklist" tabindex="-1">Перечень необходимых документов для доверенности</a>
+            <a href="#" class="actions__checklist" tabindex="-1">Перечень необходимых документов для доверенности</a>
           </div>
-          <div class="notarial-action-doc" id="evidence">
+          <div class="actions__doc" id="evidence">
             <p>Нотариус обеспечивает доказательства, необходимые в случае возникновения дела в суде или административном органе
               В порядке обеспечения доказательств нотариус допрашивает свидетелей, производит осмотр письменных и вещественных доказательств,
               назначает экспертизу.<br>Нотариально удостоверяются следующие виды действий:
@@ -98,10 +98,10 @@
                 как по судебному поручению, так и по инициативе одной из сторон в судебном процессе).
               </li>
             </ol>
-            <a href="#" class="notarial-action-doc__checklist" tabindex="-1">Перечень необходимых документов для обеспечения доказательства</a><br>
-            <a href="#" class="notarial-action-doc__checklist" tabindex="-1">Перечень необходимых документов для судебного поручения</a>
+            <a href="#" class="actions__checklist" tabindex="-1">Перечень необходимых документов для обеспечения доказательства</a><br>
+            <a href="#" class="actions__checklist" tabindex="-1">Перечень необходимых документов для судебного поручения</a>
           </div>
-          <div class="notarial-action-doc" id="statements">
+          <div class="actions__doc" id="statements">
             <p>Передача заявления юридических лиц и граждан осуществляется в целях выполнения предусмотренных законом требований
               при возникновении намерений в реализации предоставленных им прав и обусловлена необходимостью сообщения о своих намерениях.
             </p>
@@ -112,9 +112,9 @@
             <p>По сути, официальное заявление - это документ, фиксирующий обращение  лица по поводу осуществления его прав и защиты интересов и подлежащий рассмотрению в
               установленном законом порядке.
             </p>
-            <a href="#" class="notarial-action-doc__checklist" tabindex="-1">Перечень необходимых документов для передачи заявления</a>
+            <a href="#" class="actions__checklist" tabindex="-1">Перечень необходимых документов для передачи заявления</a>
           </div>
-          <div class="notarial-action-doc" id="realty">
+          <div class="actions__doc" id="realty">
             <p>Нотариального удостоверения требуют сделки:</p>
             <ol>
               <li>По отчуждению долей в праве общей собственности на недвижимое имущество, в том числе при отчуждении
@@ -127,9 +127,9 @@
                 ограничения или обременения права представляются почтовым отправлением.
               </li>
             </ol>
-            <a href="#" class="notarial-action-doc__checklist" tabindex="-1">Перечень необходимых документов для сделки с недвижимостью</a>
+            <a href="#" class="actions__checklist" tabindex="-1">Перечень необходимых документов для сделки с недвижимостью</a>
           </div>
-          <div class="notarial-action-doc" id="division">
+          <div class="actions__doc" id="division">
             <p>Договор по разделу имущества между супругами выступает гарантом правильного разделения имущества при разводе.
               Рекомендуем обратиться к нотариусу, во избежании недоразумений при различного рода обстоятельствах.
             </p>
@@ -139,7 +139,7 @@
             <p>У нас вы можете как составить договор о возможном разделе имущества,
               так и договор по отчуждению совместно нажитого имущества сторонами.
             </p>
-            <a href="#" class="notarial-action-doc__checklist" tabindex="-1">Перечень необходимых документов для договора о разделе имущества</a>
+            <a href="#" class="actions__checklist" tabindex="-1">Перечень необходимых документов для договора о разделе имущества</a>
           </div>
         </div>
       </div>

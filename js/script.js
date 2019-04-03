@@ -7,12 +7,12 @@ $(function () {
   });
 });
 
-//Нотариальные действия (клик по заголовку меняет содержимое текстового блока справа)
+//Клик по пункту в меню "Нотариальные действия" меняет содержимое текстового блока справа)
 $(document).ready(function () {
-  $(".notarial-action-item").click(function () {
-    $(".active-doc").removeClass("active-doc");
-    dataTextId = $(this).attr("data-text-id");
-    $("#" + dataTextId).addClass("active-doc");
+  $(".actions__item").click(function () {
+    $(".actions__doc--active").removeClass("actions__doc--active");
+    dataTextId = $(this).attr("actions__id");
+    $("#" + dataTextId).addClass("actions__doc--active");
   });
 });
 
