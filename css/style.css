@@ -26,24 +26,6 @@ a {
   margin: -1px;
 }
 
-
-.menu__list,
-.notarial-action-list,
-.documents-licens-list,
-.news-list,
-.contacts-list {
-  list-style: none;
-}
-
-.notarius,
-.notarial-action,
-.documents-licens,
-.our-specialists,
-.main-footer {
-  display: flex;
-  min-height: 350px;
-}
-
 /*=======================*/
 /*==Blocks for design====*/
 /*=======================*/
@@ -57,10 +39,6 @@ a {
 .wrapper-darken {
   background: #7c3c3c linear-gradient(6deg, transparent 73%, #572925 27%);
   color: #f2f2f2;
-}
-
-.wrapper-darken--forms {
-linear-gradient(6deg, transparent 92%, #572925 27%);
 }
 
 .wrapper-lighten {
@@ -158,6 +136,7 @@ linear-gradient(6deg, transparent 92%, #572925 27%);
 /*============*/
 
 .notarius {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -371,7 +350,6 @@ label {
   font-weight: normal;
 }
 
-
 .custom-control-label a {
   text-transform: uppercase;
   font-weight: bold;
@@ -405,7 +383,6 @@ label {
 .agreement {
   text-align: left;
 }
-
 
 .btn-light {
   height: 45px;
@@ -465,7 +442,7 @@ label {
 }
 
 /*================*/
-/*==Tariffs==*/
+/*====Tariffs=====*/
 /*================*/
 
 .tariffs {
@@ -476,15 +453,17 @@ label {
   color: #f4e6c2;
 }
 
-.tariffs-header th {
+.tariffs__header th {
   width: auto;
+  border: 1px solid #f4e6c2;
+  padding: 10px;
 }
 
-.tariffs-header th:nth-child(n+3) {
+.tariffs__header th:nth-child(n+3) {
   width: 140px;
 }
 
-.tariffs-table {
+.tariffs__table {
   width: 1100px;
   margin-bottom: 20px;
   border: 1px dotted #f4e6c2;
@@ -492,31 +471,25 @@ label {
   border-collapse: collapse;
 }
 
-.tariffs-table caption {
+.tariffs__table caption {
   margin: 10px auto;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 400;
 }
 
-.tariffs-table th {
-  border: 1px solid #f4e6c2;
-  padding: 10px;
-}
-
-.tariffs-table td {
+.tariffs__table td {
   padding: 10px;
   border: 1px dotted #f4e6c2;
   text-align: left;
 }
 
-.tariffs-table td:first-child {
+.tariffs__table td:first-child {
   vertical-align: inherit;
 }
 
-
 /*===============*/
-/*==News==*/
+/*======News=====*/
 /*===============*/
 
 .news {
@@ -527,10 +500,11 @@ label {
   color: #4E2623;
 }
 
-.news-list {
+.news__list {
   margin: 0;
   padding: 0;
   padding-bottom: 20px;
+  list-style: none;
 }
 
 .news h2 {
@@ -540,7 +514,7 @@ label {
   font-weight: 600;
 }
 
-.news-item h4 {
+.news__item h4 {
   margin: 0 auto;
   padding: 0;
   padding-bottom: 10px;
@@ -548,14 +522,14 @@ label {
   width: 600px;
 }
 
-.news-item p {
+.news__item p {
   margin: 0;
   padding: 0;
   text-align: left;
   text-transform: none;
 }
 
-.news-date {
+.news__date {
   display: block;
   width: 85px;
   height: 25px;
@@ -569,7 +543,7 @@ label {
   line-height: 25px;
 }
 
-.news-read-more {
+.news__read-more {
   display: block;
   width: 120px;
   height: 25px;
@@ -580,21 +554,18 @@ label {
   color: #7c3c3c;
 }
 
-.news-read-more:hover {
+.news__read-more:hover {
   color: #deaa87;
-}
-
-.news-page p {
-  display: block;
-  width: 900px;
-  margin: 20px auto;
-  text-align: left;
-  text-transform: none;
 }
 
 /*================*/
 /*==Footer & map==*/
 /*================*/
+
+.footer {
+  display: flex;
+  min-height: 350px;
+}
 
 .map {
   display: block;
@@ -624,12 +595,13 @@ frame {
   font-weight: 400;
 }
 
-.contacts-list {
+.contacts__list {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
-.contacts-item {
+.contacts__item {
   font-size: 16px;
   line-height: 24px;
 }
