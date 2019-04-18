@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02676fae-9888-45eb-ad75-a5fadd5308f7" name="Default" comment="" />
+    <list default="true" id="02676fae-9888-45eb-ad75-a5fadd5308f7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="443">
-                  <caret line="1130" selection-start-line="1130" selection-end-line="1130" />
+                <state relative-caret-position="600">
+                  <caret line="1123" column="36" selection-start-line="1123" selection-start-column="36" selection-end-line="1123" selection-end-column="36" />
                   <folding>
                     <element signature="n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -34,7 +36,7 @@
                     <element signature="n#div#5;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <marker date="1555564551837" expanded="true" signature="338:363" ph="..." />
+                    <marker date="1555575829324" expanded="true" signature="338:363" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -46,7 +48,7 @@
                 <state relative-caret-position="11260">
                   <caret line="563" column="19" selection-start-line="563" selection-start-column="19" selection-end-line="563" selection-end-column="19" />
                   <folding>
-                    <marker date="1555569711406" expanded="true" signature="1723:1724" ph="..." />
+                    <marker date="1555575680762" expanded="true" signature="1723:1724" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -62,7 +64,7 @@
                 <state relative-caret-position="881">
                   <caret line="885" selection-start-line="885" selection-end-line="885" />
                   <folding>
-                    <marker date="1555569711406" expanded="true" signature="1723:1724" ph="..." />
+                    <marker date="1555575680762" expanded="true" signature="1723:1724" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -157,8 +159,8 @@
         <option value="&lt;3b5fffcd-0b71-4520-a1e2-70a6782a1aae&gt;/www/index.html" />
         <option value="$PROJECT_DIR$/js/jquery-3.3.1.min.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -302,7 +304,7 @@
       <workItem from="1555414727201" duration="9562000" />
       <workItem from="1555474132086" duration="19622000" />
       <workItem from="1555561781785" duration="7295000" />
-      <workItem from="1555574342311" duration="1061000" />
+      <workItem from="1555574342311" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит. Начало работы. Поехали!">
       <created>1531994530999</created>
@@ -364,7 +366,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371149000" />
+    <option name="totallyTimeSpent" value="371574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,7 +381,7 @@
     <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.0998703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23281452" />
       <window_info id="Structure" order="1" weight="0.249354" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3294423" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -600,10 +602,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11260">
+          <caret line="563" column="19" selection-start-line="563" selection-start-column="19" selection-end-line="563" selection-end-column="19" />
+          <folding>
+            <marker date="1555575680762" expanded="true" signature="1723:1724" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="1130" selection-start-line="1130" selection-end-line="1130" />
+        <state relative-caret-position="600">
+          <caret line="1123" column="36" selection-start-line="1123" selection-start-column="36" selection-end-line="1123" selection-end-column="36" />
           <folding>
             <element signature="n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -618,17 +630,7 @@
             <element signature="n#div#5;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1555564551837" expanded="true" signature="338:363" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="885" selection-start-line="885" selection-end-line="885" />
-          <folding>
-            <marker date="1555569711406" expanded="true" signature="1723:1724" ph="..." />
+            <marker date="1555575829324" expanded="true" signature="338:363" ph="..." />
           </folding>
         </state>
       </provider>
