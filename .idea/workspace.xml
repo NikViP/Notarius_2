@@ -4,6 +4,8 @@
     <list default="true" id="02676fae-9888-45eb-ad75-a5fadd5308f7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/notarius.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/notarius_old.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,52 +18,69 @@
     <favorites_list name="Notarius_2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="1119" column="25" selection-start-line="1119" selection-start-column="25" selection-end-line="1119" selection-end-column="25" />
-              <folding>
-                <element signature="n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#table#0;n#div#0;n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <marker date="1554450370984" expanded="true" signature="12259:13108" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-799">
-              <caret line="433" column="5" selection-start-line="433" selection-start-column="4" selection-end-line="433" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.55771726">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="442">
+                  <caret line="1130" selection-start-line="1130" selection-end-line="1130" />
+                  <folding>
+                    <element signature="n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#5;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <marker date="1555564551837" expanded="true" signature="338:363" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="11160">
+                  <caret line="563" column="19" selection-start-line="563" selection-start-column="19" selection-end-line="563" selection-end-column="19" />
+                  <folding>
+                    <marker date="1555569711406" expanded="true" signature="1723:1724" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17700">
+                  <caret line="885" selection-start-line="885" selection-end-line="885" />
+                  <folding>
+                    <marker date="1555569711406" expanded="true" signature="1723:1724" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>отправка</find>
-      <find>нотариус</find>
-      <find>form</find>
-      <find>form-control</find>
-      <find>area</find>
-      <find>iframe</find>
-      <find>cols</find>
       <find>512</find>
-      <find>custom-control-label</find>
-      <find>control-label</find>
-      <find>custom-file-input</find>
       <find>alert</find>
       <find>invalid-tool</find>
       <find>bootstrap</find>
@@ -81,11 +100,22 @@
       <find>contacts-list</find>
       <find>contacts-item</find>
       <find>-</find>
+      <find>spacer</find>
+      <find>767</find>
+      <find>А</find>
+      <find>1200</find>
+      <find>centering</find>
+      <find>btn</find>
+      <find>custom-file-input</find>
+      <find>custom-control-label</find>
+      <find>control-label</find>
+      <find>form-control</find>
     </findStrings>
     <replaceStrings>
       <replace>*</replace>
       <replace>contacts__list</replace>
       <replace>contacts__item</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -138,10 +168,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="634" />
-    <option name="height" value="1158" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -150,35 +181,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Notarius_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Notarius_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Notarius_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Notarius_2" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Notarius_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Notarius_2" type="462c0819:PsiDirectoryNode" />
-              <item name="feedback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Notarius_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Notarius_2" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -189,7 +192,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sedona" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
@@ -295,7 +298,16 @@
       <workItem from="1554092667554" duration="5432000" />
       <workItem from="1554180289433" duration="2579000" />
       <workItem from="1554266318546" duration="7962000" />
-      <workItem from="1554441875462" duration="5822000" />
+      <workItem from="1554441875462" duration="6426000" />
+      <workItem from="1554456304010" duration="1270000" />
+      <workItem from="1554791964135" duration="958000" />
+      <workItem from="1555244313301" duration="58000" />
+      <workItem from="1555244377756" duration="4267000" />
+      <workItem from="1555320270115" duration="5292000" />
+      <workItem from="1555401478049" duration="8275000" />
+      <workItem from="1555414727201" duration="9562000" />
+      <workItem from="1555474132086" duration="19622000" />
+      <workItem from="1555561781785" duration="7295000" />
     </task>
     <task id="LOCAL-00001" summary="Первый коммит. Начало работы. Поехали!">
       <created>1531994530999</created>
@@ -357,7 +369,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312885000" />
+    <option name="totallyTimeSpent" value="370088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,14 +381,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="1176" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1997406" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.0998703" />
       <window_info id="Structure" order="1" weight="0.249354" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3294423" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299595" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960325" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -595,27 +607,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="1119" column="25" selection-start-line="1119" selection-start-column="25" selection-end-line="1119" selection-end-column="25" />
+        <state relative-caret-position="442">
+          <caret line="1130" selection-start-line="1130" selection-end-line="1130" />
           <folding>
             <element signature="n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#form#0;n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1554450370984" expanded="true" signature="12259:13108" ph="..." />
+            <marker date="1555564551837" expanded="true" signature="338:363" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
-          <caret line="433" column="5" selection-start-line="433" selection-start-column="4" selection-end-line="433" selection-end-column="5" />
+        <state relative-caret-position="17700">
+          <caret line="885" selection-start-line="885" selection-end-line="885" />
+          <folding>
+            <marker date="1555569711406" expanded="true" signature="1723:1724" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
